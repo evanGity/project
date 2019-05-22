@@ -15,11 +15,11 @@ Vue.prototype.$axios = Axios
 
 Vue.config.productionTip = true
 
-// Vue.config.errorHandler = (err, vm, info) => {
-//   console.log(err.stack)
-//   console.log(vm)
-//   console.log(info)
-// }
+Vue.config.errorHandler = (err, vm, info) => {
+  console.log(err.stack)
+  console.log(vm)
+  console.log(info)
+}
 
 // import {
 //   Dialog
